@@ -8,8 +8,8 @@ int main()
 
 	a = 10;
 	b = 15;
-	val_1 = ++a + b--;
+	val_1 = ++a + b--;//전위:문장 시작 전 후위 : 문장 끝 후
 
-	printf("1.val_1 = ++a + b-- = %d, a=%d,b = %d\n", val_1, a, b);
+	printf("1.val_1 = ++a + b-- = %d, a = %d,b = %d\n", val_1, a, b);
 	return 0;
 }
